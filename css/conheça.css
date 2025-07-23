@@ -1,0 +1,124 @@
+
+.boi-container{
+    display: flex;
+   align-items: flex-start;
+   gap: 40px;
+   padding: 20px;
+   flex-wrap: wrap;
+   
+}
+
+.boi-img {
+    display: flex;
+    text-align: center;
+}
+
+.boi-img ul li{
+    font-size: 2rem;
+    text-align: start;
+    
+}
+
+.boi-img img {
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+.boi_partes ul{
+    column-count:2;
+    text-align: start;
+    margin: 30px;
+    
+    
+    
+}
+
+.boi_partes li{
+    margin: 20px;
+     padding: 20px 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.boi-img ul{
+   display: inline-block;
+   padding: 15px;
+   list-style-type: none;
+}
+
+.boi-img li{
+    line-height: 5rem;
+    justify-items: end;
+
+
+}
+
+h3{
+    color: #233E83;
+    font-size: 35px;
+    text-align: end;
+    padding: 10px;
+     
+}
+
+
+
+h5{
+    color: #233E83;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;   
+     border-bottom: 2px solid #ccc;
+}
+
+.boi_partes ul tr td {
+  margin-bottom: 6px;
+  font-size: 30px;
+  line-height: 70px;
+   border-bottom: 2px solid #ccc;
+   
+   border-radius:7px;
+  
+  
+}
+
+
+
+.boi-img i{
+    color: red;
+  margin-right: 10px;   
+  vertical-align: middle;
+  margin-left: 500px;
+  
+}
+
+.boi_partes tr i {
+    color:red;
+     margin-right: 50px; 
+    vertical-align: middle;
+    margin-left: 30px;
+    
+}
+
+.boi-partes {
+    background-color: #918c8c;
+    
+    
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Cinza claro */
+  
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff; /* Branco */
+}
+
+.box-line-footer h2{
+    font-size: 1,1rem;
+    color: #233E83;
+}

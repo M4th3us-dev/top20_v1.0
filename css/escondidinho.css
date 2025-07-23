@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ECECEC;
+  max-width: 100%;
+  
+}
+.img-receita{
+  background-image: url(../image/ImgReceitas/escondidinho.webp);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.cards{
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: 300;
+ margin-bottom: 30px;
+  background-color: #fff;
+
+}
+
+h1{
+  text-align: center;
+  color: #233E83;
+  font-weight: 300 ;
+   border-bottom: 2px solid #ccc;
+}
+
+li{
+  list-style-position:inside ;
+  line-height: 2.5;
+  
+}
+
+@media screen and (max-width: 768px){
+footer .interface2{
+    max-width: 100%;
+}
+  footer .line-footer2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 2 colunas iguais */
+    gap: 20px;
+    border-bottom: 1px solid #fff;
+    margin: 20px;
+    
+    
+  }
+
+  footer .line-footer2 .box-line-footer {
+    
+    width:200px;
+    text-align: center ;
+    margin-bottom: 20px;
+
+  }
+
+  footer .box-line-footer img {
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+  }
+
+  .box-line-footer .btn-redes button {
+    font-size: 1.8rem;
+    color: #233E83;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+   
+  }
+
+  footer .line-footer3 {
+    text-align: center;
+    padding-top: 10px;
+    
+    
+  }
+
+.line-footer2 .box-line-footer h3{
+  line-height: 1.0rem;
+  text-align: center;
+    color: #233E83;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.line-footer2 .box-line-footer a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.0rem;
+    transition: .2s;
+    
+    
+}
+
+.box-line-footer{
+  display: grid;
+  margin-left: 35%;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233E83;
+    padding: 10px 5%;
+  }
+
+header{
+    width: 100%;
+    background-color: #d21709
+}
+
+  .top-header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+    .Logotipo{
+    width: auto;
+}
+  .Logotipo img {
+    height: 100px;
+    
+    display: block;
+  }
+
+  .interface{
+    display: none;
+  }
+
+  .btn-social {
+    display: flex;
+    gap: 10px;
+  }
+
+  .btn-social button {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .btn-social i {
+    color: #fff;
+  }
+
+}
+
